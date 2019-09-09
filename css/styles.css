@@ -10,6 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 
+#contact textarea {
+	resize: none;
+}
+
 nav.navbar {
 	height: 100px;
 }
@@ -205,6 +209,14 @@ ul {
 	list-style: none;
 }
 
+.btn-outline-info {
+	color: #00bdaa !important;
+}
+
+.btn-outline-info:hover {
+	color: #fff !important;
+	background: #00bdaa !important;
+}
 
 /*Mission*/
 
@@ -579,11 +591,11 @@ section .section-title {
 	}
 
 	.tIcon {
-		color: #000;
+		color: #fff;
 	}
 
 	.service-image {
-		display: none;
+		margin-top: 50px;
 	}
 
 	.team-image {

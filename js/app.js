@@ -10,7 +10,7 @@ AOS.init({
 
 
 $(document).ready(function(){
-
+	
 	
 });
 
@@ -20,6 +20,8 @@ $(window).scroll(function() {
 	  		"background":"white",
 	  		"height": "60px"
 	  	});
+
+	  	$(".tIcon").css("background","#000");
 
 	  	$("a.nav-link").css("color","#000");
 	  	$("a#login").css("background","#00bdaa");
