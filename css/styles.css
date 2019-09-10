@@ -14,9 +14,9 @@ html {
 	resize: none;
 }
 
-nav.navbar {
+/*nav.navbar {
 	height: 100px;
-}
+}*/
 
 .box-shadow {
 	box-shadow: 1px 1px 12px 2px rgba(0, 0, 255, .1);	
@@ -29,14 +29,15 @@ nav.navbar {
 /*Header*/
 
 .tIcon {
-	font-size: 1rem;
+	font-size: 1.5rem;
 	color: #fff;
 }
 
 .nav-pills .nav-link.active {
 	border-bottom: 2px solid #a1dd70;
 	background-color: transparent !important;
-	color: #00bdaa !important;	
+	color: #00bdaa !important;
+	display: inline-block;	
 }
 
 .nav-pills .nav-link.active:hover {
@@ -74,11 +75,11 @@ nav.navbar {
 	color: #00bdaa;	
 }
 
-.logo{
+/*.logo{
 	height: 100px;	
-	/*width: 120px;
-	max-height: 120px;*/
-}
+	width: 120px;
+	max-height: 120px;
+}*/
 
 a#login {	
 	display: inline-block;
@@ -586,8 +587,13 @@ section .section-title {
 		margin-left: auto;
 	}*/
 
-	nav.navbar {
-		height: 100px !important;
+	#header .mainNavlink {
+		margin-left: 20px !important;
+	}
+
+
+	.logo {
+		width: 85%;
 	}
 
 	.tIcon {
@@ -619,6 +625,10 @@ section .section-title {
 	#mission h2 {
 		font-size: 24px;
 	}
+
+	/*#nannies .card-body{
+		width: 120%;
+	}*/
 
 	#contact h3 {
 		font-size: 24px;

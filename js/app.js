@@ -18,7 +18,7 @@ $(window).scroll(function() {
 	  if ($(window).scrollTop() >= 50) {
 	  	$("nav.navbar").addClass("animated fadeInDown fixed-top box-shadow").css({
 	  		"background":"white",
-	  		"height": "60px"
+	  		"height": "70px"
 	  	});
 
 	  	$(".tIcon").css("background","#000");
@@ -41,6 +41,11 @@ $(window).scroll(function() {
 	  	$("a#login").css("background","transparent");
 	  }	
 	  if($(window).scrollTop() === 0){
+	  	$("a#login").hover(function(){
+	  		$(this).css("background","#00bdaa");
+	  	},function(){
+	  		$(this).css("background","transparent");
+	  	});
 	  	$("a.nav-link").hover(function(){
 		$(this).css("color","#00bdaa");
 	},function(){
